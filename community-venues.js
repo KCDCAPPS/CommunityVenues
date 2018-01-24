@@ -21,7 +21,7 @@ window.onload = function() {
 			  id: 'Paekākāriki',
 			  text: 'Paekākāriki'
 			},
-			{
+			{ 
 			  id: 'Paraparaumu',
 			  text: 'Paraparaumu'
 			},
