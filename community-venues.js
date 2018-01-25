@@ -10,6 +10,10 @@ window.onload = function() {
 			allowClear: true,
 			data: [
 			{
+			  id: '*',
+			  text: 'All'
+			},
+			{
 			  id: 'Ōtaki',
 			  text: 'Ōtaki'
 			},
@@ -913,7 +917,8 @@ window.onload = function() {
 				var count = 0;
 				$.each(venues, function(venue, attrs) {
 					$.each(attrs, function(i, item) {
-						if(item['Suburb'] == suburb){
+						if(item['Suburb'] == suburb || suburb == '*'){
+							console.log('Suburb is * - findSuburbDesignations');
 							$.each(item['Designation'], function(ii, venueDesignation) {
 								if($.inArray(venueDesignation, designations) == -1 ? true : false)
 									designations.push(venueDesignation);
@@ -950,7 +955,8 @@ window.onload = function() {
 			$.each(venues, function(venue, attrs) {
 				//Loop through venues attributes/properties
 				$.each(attrs, function(i, item) {
-					if(item['Suburb'] == suburb){
+					if(item['Suburb'] == suburb || suburb == '*')){
+						console.log('Suburb is * - findVenueDesignations');
 						//See if venue matches one of the selected designations
 						$.each(item['Designation'], function(i, venueDesignation) {
 							if($.inArray(venueDesignation, selectedDesignations) != -1 ? true : false){
