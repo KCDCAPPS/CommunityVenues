@@ -940,7 +940,7 @@ window.onload = function() {
 
 		//Return all venues for the selected designations and suburb
 		function findVenueDesignations(selectedDesignations) {
-			$( "#venues-list" ).empty();
+			$( "#venue-list" ).empty();
 			var availVenues = [];
 			var match = 0;
 			var visibleVenues = 0;
