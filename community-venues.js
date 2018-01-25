@@ -94,7 +94,7 @@ window.onload = function() {
 					"Hall with Stage",
 					"Tables & Chairs",
 					"Full Kitchen",
-					"Changing rooms", 
+					"Changing Rooms", 
 					"Toilets",
 					"Heating"
 				],
@@ -104,10 +104,14 @@ window.onload = function() {
 				"Blurb": "Kāpiti’s only ‘Learn to Ride’ track allows young children to bike and scooter around in style within the safety of this unique playground! Bring the older kids to the skate park and then settle down for a picnic. This park is located at the south end of Aōtaki Street in Ōtaki.",
 				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/paekak-memorial-hall-outside-2.png"
 			}],
-			"Awatea Lakes": [{
+			"Ōtaki Memorial Hall": [{
 				"Designation": [
-					"Playground",
-					"Scenic Walk"
+					"Hall with stage",
+					"Tables & Chairs",
+					"Supper Room",
+					"Full Kitchen",
+					"Toilets",
+					"Heating (coin operated)"
 				],
 				"Suburb": "Paraparaumu",
 				"Location": "Jade Lane, Paraparaumu",
@@ -118,12 +122,12 @@ window.onload = function() {
 			"Raumati South Memorial Hall": [{
 				"Designation": [
 					"Hall with stage",
-					"Committee room",
-					"Meeting room",
+					"Committee Room",
+					"Meeting Room",
 					"Tables & Chairs",
-					"Full Kitchen",
+					"Kitchen",
 					"Toilets",
-					"Heating",
+					"Heating (coin operated)",
 					"Disability toilet",
 					"Wheelchair accessible"
 				],
