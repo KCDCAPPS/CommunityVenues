@@ -1,6 +1,6 @@
 window.onload = function() {
 		var suburb = '';
-		var visibleParks = 0;
+		var visibleVenues = 0;
 		/* UAT ONLY */
 		//var domain = "http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/";
 		var domain = "http://www.kapiticoast.govt.nz/";
@@ -21,7 +21,7 @@ window.onload = function() {
 			  id: 'Paekākāriki',
 			  text: 'Paekākāriki'
 			},
-			{ 
+			{
 			  id: 'Paraparaumu',
 			  text: 'Paraparaumu'
 			},
@@ -73,8 +73,8 @@ window.onload = function() {
 			suburb = '';
 			findSuburbDesignations('')
 			$('#designation').prop('disabled', 'disabled');
-			$('#parks-btn').html('Show More...');
-			$('#parks-btn').hide();
+			$('#venues-btn').html('Show More...');
+			$('#venues-btn').hide();
 		});
 
 		$('#designation').on('select2:select', function (e) {
@@ -85,7 +85,7 @@ window.onload = function() {
 			findParkDesignations($('#designation').val());
 		});
 		
-		var parks = {
+		var venues = {
 			"Aōtaki Street Skate Park": [{
 				"Designation": [
 					"Picnic Area",
@@ -840,32 +840,32 @@ window.onload = function() {
 		//Scroll up to help out mobile users
 		$.fn.gotoAnchor = function(anchor) {
 			//location.href = this.selector; // this doesn't go high enough but is more effecient
-			$(document).scrollTop( $("#parks-end").offset().top - 200); 
+			$(document).scrollTop( $("#venues-end").offset().top - 200); 
 		}
 		
-		$('#parks-btn').on('click', function (e, t) {
+		$('#venues-btn').on('click', function (e, t) {
 			var count = 0;
-			if(visibleParks == $('.park-item').length){
+			if(visibleVenues == $('.park-item').length){
 				$('.park-item').each(function(i) {
 					var element = $(this);
 					if(i >= 5) {
 						element.css('display', 'none')
 					}
-					visibleParks = 0;
+					visibleVenues = 0;
 				});
-				$('#parks-btn').html('Show More...')
-				$('#parks-end').gotoAnchor();
+				$('#venues-btn').html('Show More...')
+				$('#venues-end').gotoAnchor();
 			} else {
 				$('.park-item').each(function(i) {
 					var element = $(this);
 					var shown = false;
-					visibleParks = 0;
+					visibleVenues = 0;
 					if(element.css('display') == 'none' && count < 5) {
 						element.show();
 						count++
 						if(i == $('.park-item').length -1){
-							$('#parks-btn').html('Show Less...')
-							visibleParks = i + 1;
+							$('#venues-btn').html('Show Less...')
+							visibleVenues = i + 1;
 						}	
 					} 						 
 				});
@@ -902,16 +902,16 @@ window.onload = function() {
 			$( "#park-list" ).append( parkList.join(' ') );
 		}
 	
-		//Return all designations for parks for a selected suburb
+		//Return all designations for venues for a selected suburb
 		function findSuburbDesignations(suburb) {
-			var visibleParks = 0;
-			$('#parks-btn').html('Show More...')
+			var visibleVenues = 0;
+			$('#venues-btn').html('Show More...')
 			$( "#park-list" ).empty();
 			$('#designation').find('option').remove().end();
 			var designations = [];
 			if(suburb != ''){
 				var count = 0;
-				$.each(parks, function(park, attrs) {
+				$.each(venues, function(park, attrs) {
 					$.each(attrs, function(i, item) {
 						if(item['Suburb'] == suburb){
 							$.each(item['Designation'], function(ii, parkDesignation) {
@@ -919,7 +919,7 @@ window.onload = function() {
 									designations.push(parkDesignation);
 							});	
 							
-							hideExcessParks(park, attrs, count)
+							hideExcessVenues(park, attrs, count)
 							count++;							
 						}
 					});
@@ -938,17 +938,17 @@ window.onload = function() {
 			applyHoverStyles();
 		}
 
-		//Return all parks for the selected designations and suburb
+		//Return all venues for the selected designations and suburb
 		function findParkDesignations(selectedDesignations) {
 			$( "#park-list" ).empty();
-			var availParks = [];
+			var availVenues = [];
 			var match = 0;
-			var visibleParks = 0;
-			$('#parks-btn').html('Show More...')
+			var visibleVenues = 0;
+			$('#venues-btn').html('Show More...')
 			var count = 0;
-			//Loop through parks
-			$.each(parks, function(park, attrs) {
-				//Loop through parks attributes/properties
+			//Loop through venues
+			$.each(venues, function(park, attrs) {
+				//Loop through venues attributes/properties
 				$.each(attrs, function(i, item) {
 					if(item['Suburb'] == suburb){
 						//See if park matches one of the selected designations
@@ -960,8 +960,8 @@ window.onload = function() {
 					}
 				});
 				if($.isArray(selectedDesignations) && match == selectedDesignations.length){
-					availParks.push(park);
-					hideExcessParks(park, attrs, count)	
+					availVenues.push(park);
+					hideExcessVenues(park, attrs, count)	
 					count++					
 				}
 
@@ -974,7 +974,7 @@ window.onload = function() {
 			
 			applyHoverStyles();
 
-			return parks;
+			return venues;
 		}
 		
 		function applyHoverStyles(){
@@ -987,12 +987,12 @@ window.onload = function() {
 			$('.well').parent().parent().css({ 'color': 'inherit' });
 		}
 		
-		function hideExcessParks(park, attrs, count){
+		function hideExcessVenues(park, attrs, count){
 			var hide = count > 4 ? true : false;
 			if(count > 4){
-				$('#parks-btn').show();
+				$('#venues-btn').show();
 			} else{
-				$('#parks-btn').hide();
+				$('#venues-btn').hide();
 			}
 				
 			addNewPark(park, attrs[0], hide)	
