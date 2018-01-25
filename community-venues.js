@@ -17,26 +17,26 @@ window.onload = function() {
 			  id: 'Ōtaki',
 			  text: 'Ōtaki'
 			},
-			{
+			/*{
 			  id: 'Otaihanga',
 			  text: 'Otaihanga'
-			},
+			},*/
 			{
 			  id: 'Paekākāriki',
 			  text: 'Paekākāriki'
 			},
-			{
+			/*{
 			  id: 'Paraparaumu',
 			  text: 'Paraparaumu'
 			},
 			{
 			  id: 'Paraparaumu Beach',
 			  text: 'Paraparaumu Beach'
-			},
+			},*/
 			{
 			  id: 'Raumati',
 			  text: 'Raumati'
-			},
+			}/*,
 			{
 			  id: 'Raumati South',
 			  text: 'Raumati South'
@@ -52,7 +52,7 @@ window.onload = function() {
 			{
 			  id: 'Waikanae Beach',
 			  text: 'Waikanae Beach'
-			}
+			}*/
 			]
 		});
 
@@ -113,11 +113,11 @@ window.onload = function() {
 					"Toilets",
 					"Heating (coin operated)"
 				],
-				"Suburb": "Paraparaumu",
-				"Location": "Jade Lane, Paraparaumu",
-				"Webpage": "Our-District/Our-Community/Parks-and-Recreation/parks/Paraparaumu/#awatea",
+				"Suburb": "Ōtaki",
+				"Location": "Jade Lane, Ōtaki",
+				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/otaki-memorial-hall/",
 				"Blurb": "Awatea Lakes spreads between Awatea Avenue, Waterstone Avenue and Jade Lane. Native planting makes the brief walk around the pond a nice escape. Feed the ducks and let the kids loose on a playground that's set back and lowered from the road.",
-				"Image": "/globalassets/our-district/our-community/parks-and-recreation/Jadesmall.jpg"
+				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/otaki-memorial-hall-outside-2.png"
 			}],
 			"Raumati South Memorial Hall": [{
 				"Designation": [
