@@ -106,7 +106,7 @@ window.onload = function() {
 			}],
 			"Ōtaki Memorial Hall": [{
 				"Designation": [
-					"Hall with stage",
+					"Hall with Stage",
 					"Tables & Chairs",
 					"Supper Room",
 					"Full Kitchen",
@@ -121,14 +121,14 @@ window.onload = function() {
 			}],
 			"Raumati South Memorial Hall": [{
 				"Designation": [
-					"Hall with stage",
+					"Hall with Stage",
 					"Committee Room",
 					"Meeting Room",
 					"Tables & Chairs",
 					"Kitchen",
 					"Toilets",
 					"Heating (coin operated)",
-					"Disability toilet",
+					"Disability Toilet",
 					"Wheelchair accessible"
 				],
 				"Suburb": "Raumati",
