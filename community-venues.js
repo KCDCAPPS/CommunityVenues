@@ -54,7 +54,7 @@ window.onload = function() {
 		});
 
 		$('#designation').select2({
-			placeholder: "Select one or more amenities to filter the park list",
+			placeholder: "Select one or more amenities to filter the venue list",
 			tags: true,
 			tokenSeparators: [',', ' ']
 		})
@@ -78,11 +78,11 @@ window.onload = function() {
 		});
 
 		$('#designation').on('select2:select', function (e) {
-			findParkDesignations($('#designation').val())
+			findVenueDesignations($('#designation').val())
 		});
 		
 		$('#designation').on('select2:unselect', function (e) {
-			findParkDesignations($('#designation').val());
+			findVenueDesignations($('#designation').val());
 		});
 		
 		var venues = {
@@ -845,8 +845,8 @@ window.onload = function() {
 		
 		$('#venues-btn').on('click', function (e, t) {
 			var count = 0;
-			if(visibleVenues == $('.park-item').length){
-				$('.park-item').each(function(i) {
+			if(visibleVenues == $('.venue-item').length){
+				$('.venue-item').each(function(i) {
 					var element = $(this);
 					if(i >= 5) {
 						element.css('display', 'none')
@@ -856,14 +856,14 @@ window.onload = function() {
 				$('#venues-btn').html('Show More...')
 				$('#venues-end').gotoAnchor();
 			} else {
-				$('.park-item').each(function(i) {
+				$('.venue-item').each(function(i) {
 					var element = $(this);
 					var shown = false;
 					visibleVenues = 0;
 					if(element.css('display') == 'none' && count < 5) {
 						element.show();
 						count++
-						if(i == $('.park-item').length -1){
+						if(i == $('.venue-item').length -1){
 							$('#venues-btn').html('Show Less...')
 							visibleVenues = i + 1;
 						}	
@@ -872,26 +872,26 @@ window.onload = function() {
 			}
 		})
 		
-		function addNewPark(park, parkAttributes, hide){
+		function addNewVenue(venue, venueAttributes, hide){
 			//Allow an external site to be added, so we will need to check to see if the URL contains a https or www as all internal links exclude this and all external ones requires either of these and can contain both.
-			//Remember -1 means not found. This allows us to easily change between production and uat with allowing for externally linked pages such as the QE2 park link which goes to a central government page
-			var parkUrl = (parkAttributes.Webpage.indexOf('http') == -1 &&  parkAttributes.Webpage.indexOf('www') == -1) ? domain + parkAttributes.Webpage : parkAttributes.Webpage;
+			//Remember -1 means not found. This allows us to easily change between production and uat with allowing for externally linked pages such as the QE2 venue link which goes to a central government page
+			var venueUrl = (venueAttributes.Webpage.indexOf('http') == -1 &&  venueAttributes.Webpage.indexOf('www') == -1) ? domain + venueAttributes.Webpage : venueAttributes.Webpage;
 			
-			var parkList = [
-				'<a class="park-item" href="'+ parkUrl + ' " target="_blank"', hide ? 'style="display: none"' : '' ,'  >',
+			var venueList = [
+				'<a class="venue-item" href="'+ venueUrl + ' " target="_blank"', hide ? 'style="display: none"' : '' ,'  >',
 					'<div class="row">',
 						"<div class='well col-md-12' style='background-color: #ffffff; margin-top: 10px; cursor: pointer;'>",
 							"<div class='col-md-4'>",
 								"<img style='width: 230px; height: 170px;' ",
-								"src='" + parkAttributes.Image + "' ",
-								"alt='" + park + "' class='img-thumbnail'>",
+								"src='" + venueAttributes.Image + "' ",
+								"alt='" + venue + "' class='img-thumbnail'>",
 							"</div>",
 							"<div class='col-md-8'>",
-								"<h2 style='margin-top: 10px;'>" + park + "</h2>",
-								"<p>" + parkAttributes.Blurb + "</p>",
+								"<h2 style='margin-top: 10px;'>" + venue + "</h2>",
+								"<p>" + venueAttributes.Blurb + "</p>",
 								"<address style='margin-bottom: 0px;'>",
 									"<strong>Location: </strong>",
-									parkAttributes.Location,
+									venueAttributes.Location,
 								"</address>",
 							"</div>",
 						"</div>",
@@ -899,27 +899,27 @@ window.onload = function() {
 				"</a>"
 			];
 
-			$( "#park-list" ).append( parkList.join(' ') );
+			$( "#venue-list" ).append( venueList.join(' ') );
 		}
 	
 		//Return all designations for venues for a selected suburb
 		function findSuburbDesignations(suburb) {
 			var visibleVenues = 0;
 			$('#venues-btn').html('Show More...')
-			$( "#park-list" ).empty();
+			$( "#venue-list" ).empty();
 			$('#designation').find('option').remove().end();
 			var designations = [];
 			if(suburb != ''){
 				var count = 0;
-				$.each(venues, function(park, attrs) {
+				$.each(venues, function(venue, attrs) {
 					$.each(attrs, function(i, item) {
 						if(item['Suburb'] == suburb){
-							$.each(item['Designation'], function(ii, parkDesignation) {
-								if($.inArray(parkDesignation, designations) == -1 ? true : false)
-									designations.push(parkDesignation);
+							$.each(item['Designation'], function(ii, venueDesignation) {
+								if($.inArray(venueDesignation, designations) == -1 ? true : false)
+									designations.push(venueDesignation);
 							});	
 							
-							hideExcessVenues(park, attrs, count)
+							hideExcessVenues(venue, attrs, count)
 							count++;							
 						}
 					});
@@ -939,29 +939,29 @@ window.onload = function() {
 		}
 
 		//Return all venues for the selected designations and suburb
-		function findParkDesignations(selectedDesignations) {
-			$( "#park-list" ).empty();
+		function findVenueDesignations(selectedDesignations) {
+			$( "#venues-list" ).empty();
 			var availVenues = [];
 			var match = 0;
 			var visibleVenues = 0;
 			$('#venues-btn').html('Show More...')
 			var count = 0;
 			//Loop through venues
-			$.each(venues, function(park, attrs) {
+			$.each(venues, function(venue, attrs) {
 				//Loop through venues attributes/properties
 				$.each(attrs, function(i, item) {
 					if(item['Suburb'] == suburb){
-						//See if park matches one of the selected designations
-						$.each(item['Designation'], function(i, parkDesignation) {
-							if($.inArray(parkDesignation, selectedDesignations) != -1 ? true : false){
+						//See if venue matches one of the selected designations
+						$.each(item['Designation'], function(i, venueDesignation) {
+							if($.inArray(venueDesignation, selectedDesignations) != -1 ? true : false){
 								match++;
 							}
 						});
 					}
 				});
 				if($.isArray(selectedDesignations) && match == selectedDesignations.length){
-					availVenues.push(park);
-					hideExcessVenues(park, attrs, count)	
+					availVenues.push(venue);
+					hideExcessVenues(venue, attrs, count)	
 					count++					
 				}
 
@@ -987,7 +987,7 @@ window.onload = function() {
 			$('.well').parent().parent().css({ 'color': 'inherit' });
 		}
 		
-		function hideExcessVenues(park, attrs, count){
+		function hideExcessVenues(venue, attrs, count){
 			var hide = count > 4 ? true : false;
 			if(count > 4){
 				$('#venues-btn').show();
@@ -995,7 +995,7 @@ window.onload = function() {
 				$('#venues-btn').hide();
 			}
 				
-			addNewPark(park, attrs[0], hide)	
+			addNewVenue(venue, attrs[0], hide)	
 		}
 		
 }
