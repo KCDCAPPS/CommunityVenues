@@ -54,7 +54,7 @@ window.onload = function() {
 		});
 
 		$('#designation').select2({
-			placeholder: "Select one or more amenities to filter the venue list",
+			placeholder: "Select one or more amenity to filter the venue list",
 			tags: true,
 			tokenSeparators: [',', ' ']
 		})
