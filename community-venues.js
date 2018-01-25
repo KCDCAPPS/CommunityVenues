@@ -53,7 +53,6 @@ window.onload = function() {
 			  id: 'Waikanae Beach',
 			  text: 'Waikanae Beach'
 			}
-			// ... more data objects ...
 			]
 		});
 
@@ -90,6 +89,51 @@ window.onload = function() {
 		});
 		
 		var venues = {
+			"Paekākāriki Memorial Hall": [{
+				"Designation": [
+					"Main hall",
+					"Stage",
+					"Tables and Chairs",
+					"Full Kitchen",
+					"Changing rooms", 
+					"Toilets"
+				],
+				"Suburb": "Paekākāriki",
+				"Location": "Aōtaki Street, Paekākāriki",
+				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/paeakakariki-memorial-hall/",
+				"Blurb": "Kāpiti’s only ‘Learn to Ride’ track allows young children to bike and scooter around in style within the safety of this unique playground! Bring the older kids to the skate park and then settle down for a picnic. This park is located at the south end of Aōtaki Street in Ōtaki.",
+				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/paekak-memorial-hall-outside-2.png"
+			}],
+			"Awatea Lakes": [{
+				"Designation": [
+					"Playground",
+					"Scenic Walk"
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Jade Lane, Paraparaumu",
+				"Webpage": "Our-District/Our-Community/Parks-and-Recreation/parks/Paraparaumu/#awatea",
+				"Blurb": "Awatea Lakes spreads between Awatea Avenue, Waterstone Avenue and Jade Lane. Native planting makes the brief walk around the pond a nice escape. Feed the ducks and let the kids loose on a playground that's set back and lowered from the road.",
+				"Image": "/globalassets/our-district/our-community/parks-and-recreation/Jadesmall.jpg"
+			}],
+			"Campbell Park": [{
+				"Designation": [
+					"Dog on leash",
+					"Greenspace",
+					"Picnic Area",
+					"Playground",
+					"Sports Grounds",
+					"Skate Park",
+					"Toilets"
+				],
+				"Suburb": "Paekākāriki",
+				"Location": "Wellington Road, Paekākāriki",
+				"Webpage": "Our-District/Our-Community/Parks-and-Recreation/parks/campbell-park/",
+				"Blurb": "Located just across the road from Paekākāriki Beach, Campbell Park offers football spectators and players a unique experience. Above the playing field, there's a playground where children can play safely – the best way to get here is via The Parade. There's plenty of open grassy space for picnics and a leisurely stroll.",
+				"Image": "/globalassets/our-district/our-community/parks-and-recreation/campsmall.jpg"
+			}]
+		};
+		
+		/*var venues = {
 			"Aōtaki Street Skate Park": [{
 				"Designation": [
 					"Picnic Area",
@@ -839,7 +883,7 @@ window.onload = function() {
 				"Blurb": "Wesley Knight Park is one of two fully-fenced off-leash dog parks in Paraparaumu. You can get to it via Ocean Road or Seaview Road, and there's a double safety gate at each entrance. There are poo bags at the gate if you've forgotten yours - please pick up your dog's poo!",
 				"Image": "/globalassets/our-district/our-community/parks-and-recreation/Wesleysmall.jpg"
 			}]
-		}
+		}*/
 		
 		//Scroll up to help out mobile users
 		$.fn.gotoAnchor = function(anchor) {
