@@ -2,15 +2,15 @@ window.onload = function() {
 		var suburb = '';
 		var visibleVenues = 0;
 		/* UAT ONLY */
-		//var domain = "http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/";
-		var domain = "http://www.kapiticoast.govt.nz/";
+		var domain = "http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/";
+		//var domain = "http://www.kapiticoast.govt.nz/";
 
 		$('#suburb').select2({
 			placeholder: "Select a Suburb",
 			allowClear: true,
 			data: [
 			{
-			  id: '*',
+			  id: 'All',
 			  text: 'All'
 			},
 			{
@@ -917,8 +917,8 @@ window.onload = function() {
 				var count = 0;
 				$.each(venues, function(venue, attrs) {
 					$.each(attrs, function(i, item) {
-						if(item['Suburb'] == suburb || suburb == '*'){
-							console.log('Suburb is * - findSuburbDesignations');
+						if(item['Suburb'] == suburb || suburb == 'All'){
+							console.log('Suburb is all - findSuburbDesignations');
 							$.each(item['Designation'], function(ii, venueDesignation) {
 								if($.inArray(venueDesignation, designations) == -1 ? true : false)
 									designations.push(venueDesignation);
@@ -955,8 +955,8 @@ window.onload = function() {
 			$.each(venues, function(venue, attrs) {
 				//Loop through venues attributes/properties
 				$.each(attrs, function(i, item) {
-					if(item['Suburb'] == suburb || suburb == '*')){
-						console.log('Suburb is * - findVenueDesignations');
+					if(item['Suburb'] == suburb || suburb == 'All')){
+						console.log('Suburb is All - findVenueDesignations');
 						//See if venue matches one of the selected designations
 						$.each(item['Designation'], function(i, venueDesignation) {
 							if($.inArray(venueDesignation, selectedDesignations) != -1 ? true : false){
