@@ -91,12 +91,12 @@ window.onload = function() {
 		var venues = {
 			"Paekākāriki Memorial Hall": [{
 				"Designation": [
-					"Main hall",
-					"Stage",
-					"Tables and Chairs",
+					"Hall with Stage",
+					"Tables & Chairs",
 					"Full Kitchen",
 					"Changing rooms", 
-					"Toilets"
+					"Toilets",
+					"Heating"
 				],
 				"Suburb": "Paekākāriki",
 				"Location": "Aōtaki Street, Paekākāriki",
@@ -115,21 +115,23 @@ window.onload = function() {
 				"Blurb": "Awatea Lakes spreads between Awatea Avenue, Waterstone Avenue and Jade Lane. Native planting makes the brief walk around the pond a nice escape. Feed the ducks and let the kids loose on a playground that's set back and lowered from the road.",
 				"Image": "/globalassets/our-district/our-community/parks-and-recreation/Jadesmall.jpg"
 			}],
-			"Campbell Park": [{
+			"Raumati South Memorial Hall": [{
 				"Designation": [
-					"Dog on leash",
-					"Greenspace",
-					"Picnic Area",
-					"Playground",
-					"Sports Grounds",
-					"Skate Park",
-					"Toilets"
+					"Hall with stage",
+					"Committee room",
+					"Meeting room",
+					"Tables & Chairs",
+					"Full Kitchen",
+					"Toilets",
+					"Heating",
+					"Disability toilet",
+					"Wheelchair accessible"
 				],
-				"Suburb": "Paekākāriki",
-				"Location": "Wellington Road, Paekākāriki",
-				"Webpage": "Our-District/Our-Community/Parks-and-Recreation/parks/campbell-park/",
+				"Suburb": "Raumati",
+				"Location": "Wellington Road, Raumati",
+				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/raumati-south-memorial-hall/",
 				"Blurb": "Located just across the road from Paekākāriki Beach, Campbell Park offers football spectators and players a unique experience. Above the playing field, there's a playground where children can play safely – the best way to get here is via The Parade. There's plenty of open grassy space for picnics and a leisurely stroll.",
-				"Image": "/globalassets/our-district/our-community/parks-and-recreation/campsmall.jpg"
+				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/raumati-south-hall-outside-4.png"
 			}]
 		};
 		
