@@ -102,7 +102,7 @@ window.onload = function() {
 				"Location": "Aōtaki Street, Paekākāriki",
 				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/paeakakariki-memorial-hall/",
 				"Blurb": "Kāpiti’s only ‘Learn to Ride’ track allows young children to bike and scooter around in style within the safety of this unique playground! Bring the older kids to the skate park and then settle down for a picnic. This park is located at the south end of Aōtaki Street in Ōtaki.",
-				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/paekak-memorial-hall-outside-2.png"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
 			}],
 			"Ōtaki Memorial Hall": [{
 				"Designation": [
@@ -117,7 +117,7 @@ window.onload = function() {
 				"Location": "Jade Lane, Ōtaki",
 				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/otaki-memorial-hall/",
 				"Blurb": "Awatea Lakes spreads between Awatea Avenue, Waterstone Avenue and Jade Lane. Native planting makes the brief walk around the pond a nice escape. Feed the ducks and let the kids loose on a playground that's set back and lowered from the road.",
-				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/otaki-memorial-hall-outside-2.png"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
 			}],
 			"Raumati South Memorial Hall": [{
 				"Designation": [
@@ -135,7 +135,7 @@ window.onload = function() {
 				"Location": "Wellington Road, Raumati",
 				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/raumati-south-memorial-hall/",
 				"Blurb": "Located just across the road from Paekākāriki Beach, Campbell Park offers football spectators and players a unique experience. Above the playing field, there's a playground where children can play safely – the best way to get here is via The Parade. There's plenty of open grassy space for picnics and a leisurely stroll.",
-				"Image": "/globalassets/our-district/our-community/community-facilities-for-hire/raumati-south-hall-outside-4.png"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
 			}]
 		};
 		
