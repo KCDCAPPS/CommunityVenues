@@ -91,52 +91,154 @@ window.onload = function() {
 		var venues = {
 			"Paekākāriki Memorial Hall": [{
 				"Designation": [
-					"Hall with Stage",
-					"Tables & Chairs",
-					"Full Kitchen",
-					"Changing Rooms", 
-					"Toilets",
-					"Heating"
+					"Fully-equipped kitchen",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity"
 				],
 				"Suburb": "Paekākāriki",
-				"Location": "Aōtaki Street, Paekākāriki",
-				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/paeakakariki-memorial-hall/",
-				"Blurb": "Kāpiti’s only ‘Learn to Ride’ track allows young children to bike and scooter around in style within the safety of this unique playground! Bring the older kids to the skate park and then settle down for a picnic. This park is located at the south end of Aōtaki Street in Ōtaki.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
+				"Location": "98 The Parade, Paekākāriki",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-memorial-hall/",
+				"Blurb": "Paekākāriki Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-memorial-hall/PaekakHallThumb.jpg"
 			}],
 			"Ōtaki Memorial Hall": [{
 				"Designation": [
-					"Hall with Stage",
-					"Tables & Chairs",
-					"Supper Room",
-					"Full Kitchen",
-					"Toilets",
-					"Heating (coin operated)"
+					"Fully-equipped kitchen",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity"
 				],
 				"Suburb": "Ōtaki",
-				"Location": "Jade Lane, Ōtaki",
-				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/otaki-memorial-hall/",
-				"Blurb": "Awatea Lakes spreads between Awatea Avenue, Waterstone Avenue and Jade Lane. Native planting makes the brief walk around the pond a nice escape. Feed the ducks and let the kids loose on a playground that's set back and lowered from the road.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
+				"Location": "69 Main Street, Ōtaki",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/otaki-memorial-hall/",
+				"Blurb": "Ōtaki Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller meeting room.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/otaki-memorial-hall/OtakiHallThumb.JPG"
 			}],
 			"Raumati South Memorial Hall": [{
 				"Designation": [
-					"Hall with Stage",
-					"Committee Room",
-					"Meeting Room",
-					"Tables & Chairs",
-					"Kitchen",
-					"Toilets",
-					"Heating (coin operated)",
-					"Disability Toilet",
-					"Wheelchair accessible"
+					"Fully-equipped kitchen",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity"
 				],
-				"Suburb": "Raumati",
-				"Location": "Wellington Road, Raumati",
-				"Webpage": "Our-District/Our-Community/community-facilities-for-hire/raumati-south-memorial-hall/",
-				"Blurb": "Located just across the road from Paekākāriki Beach, Campbell Park offers football spectators and players a unique experience. Above the playing field, there's a playground where children can play safely – the best way to get here is via The Parade. There's plenty of open grassy space for picnics and a leisurely stroll.",
+				"Suburb": "Raumati South",
+				"Location": "Tennis Court Road, Raumati South",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/raumati-south-memorial-hall/",
+				"Blurb": "Raumati South Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller meeting room.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
-			}]
+			}],
+			"Coastlands Aquatic Centre Meeting Room": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"Wheelchair access & disability toilet",
+					"For meeting"
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Coastlands Aquatic Centre, 10 Brett Ambler Way, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/coastlands-aquatic-centre-meeting-room/",
+				"Blurb": "The Coastlands Aquatic Centre Meeting Room is a small room with a kitchenette and is suitable for small meetings and functions. It is located near the pool foyer and bookings must be made through Coastlands Aquatic Centre.  It is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/coastlands-aquatic-centre-meeting-room/CACthumb.JPG"
+			}],
+			"Kāpiti Gymsports Gymnasium": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Small capacity (<100)",
+					"For social function",
+					"For meeting"
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-gymsports-gymnasium/",
+				"Blurb": "The Kāpiti Gymsports Gymnasium has a large gymnasium where managed gym activities can take place. It is suitable for a kid's birthday party, as well as a small meeting room. The meeting room has a small kitchen. Bookings must be made through Kāpiti Gymsports and it is available for hire at certain times when normal gym activities aren't running, including weekends.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-gymsports-gymnasium/KapitiGymspThumb.JPG"
+			}],
+			"Te Horo Community Hall": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity"
+				],
+				"Suburb": "Te Horo",
+				"Location": "76 School Rd, Te Horo",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/te-horo-community-hall/",
+				"Blurb": "Te Horo Community Hall is a large hall with a supper room and kitchen as well as outdoor areas. It is suitable for large social functions including weddings, meetings and sporting activities. It is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-community-hall/TeHoroHallThumb.jpg"
+			}],
+			"Paekākāriki Tennis Club Clubrooms/Library": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"For meeting"
+				],
+				"Suburb": "Paekākāriki",
+				"Location": "14 Wellington Rd, Paekākāriki",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-tennis-club-clubroomslibrary/",
+				"Blurb": "The Paekākāriki Tennis Club Clubrooms/Library has limited availability but when not in use can be hired as a small meeting room. Bookings are made through Kāpiti Coast District Council.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-tennis-club-clubroomslibrary/PaekakLibThumb.jpg"
+			}],
+			"Waikanae War Memorial Hall": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity"
+				],
+				"Suburb": "Waikanae",
+				"Location": "3-5 Pehi Kupa St, Waikanae",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-war-memorial-hall/",
+				"Blurb": "Waikanae War Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller hall and mezzanine floor.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-war-memorial-hall/WaikMemHallThumb.JPG"
+			}],
+			"Waikanae Community Centre": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting"
+				],
+				"Suburb": "Waikanae",
+				"Location": "28-32 Utauta St, Waikanae",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-community-centre/",
+				"Blurb": "Waikanae Community Centre is a medium hall with a fully-equipped kitchen. It is suitable for medium-sized functions (conditions apply) and meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-community-centre/WaikCommCentreThumb.JPG"
+			}],
+			"Mazengarb Reserve Sports Complex Hall": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For sport/recreation activity",
+					"For meeting"
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/mazengarb-reserve-sports-complex-hall/",
+				"Blurb": "The Mazengarb Reserve Sports Complex Hall is medium-sized with a fully-equipped kitchen.  It is suitable for meetings or recreation activities.  Bookings are made through Kāpiti Coast District Council and it is available for hire 7 days a week.  The adjacent playing fields are also available for hire.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/mazengarb-reserve-sports-complex-hall/MazengarbsportscomThumb.JPG"
+			}],
+			"Waikanae Beach Community Hall": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function",
+					"For meeting"
+				],
+				"Suburb": "Waikanae Beach",
+				"Location": "22a Rauparaha St, Waikanae Beach",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-beach-community-hall/",
+				"Blurb": "Waikanae Beach Community Hall is medium-sized with a kitchen. It is suitable for functions (conditions apply) and meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week. ",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-beach-community-hall/WaikBeachCommHallThumb.JPG"
 		};
 		
 		/*var venues = {
