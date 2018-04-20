@@ -239,6 +239,7 @@ window.onload = function() {
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-beach-community-hall/",
 				"Blurb": "Waikanae Beach Community Hall is medium-sized with a kitchen. It is suitable for functions (conditions apply) and meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week. ",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-beach-community-hall/WaikBeachCommHallThumb.JPG"
+			}]
 		};
 		
 		/*var venues = {
