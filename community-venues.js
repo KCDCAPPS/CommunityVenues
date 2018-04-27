@@ -122,7 +122,7 @@ window.onload = function() {
 			"Raumati South Memorial Hall": [{
 				"Designation": [
 					"Fully-equipped kitchen",
-					"Large capacity (250+)",
+					"Medium capacity (100-250)",
 					"Wheelchair access & disability toilet",
 					"For social function", 
 					"For meeting",
@@ -138,7 +138,7 @@ window.onload = function() {
 				"Designation": [
 					"Small capacity (<100)",
 					"Wheelchair access & disability toilet",
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Paraparaumu",
 				"Location": "Coastlands Aquatic Centre, 10 Brett Ambler Way, Paraparaumu",
@@ -151,7 +151,7 @@ window.onload = function() {
 					"Fully-equipped kitchen",
 					"Small capacity (<100)",
 					"For social function",
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Paraparaumu",
 				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
@@ -165,7 +165,7 @@ window.onload = function() {
 					"Wheelchair access & disability toilet",
 					"For social function", 
 					"For meeting",
-					"For sport/recreation activity"
+					"For sport/recreation activity",
 				],
 				"Suburb": "Te Horo",
 				"Location": "76 School Rd, Te Horo",
@@ -176,7 +176,7 @@ window.onload = function() {
 			"Paekākāriki Tennis Club Clubrooms/Library": [{
 				"Designation": [
 					"Small capacity (<100)",
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Paekākāriki",
 				"Location": "14 Wellington Rd, Paekākāriki",
@@ -191,7 +191,7 @@ window.onload = function() {
 					"Wheelchair access & disability toilet",
 					"For social function", 
 					"For meeting",
-					"For sport/recreation activity"
+					"For sport/recreation activity",
 				],
 				"Suburb": "Waikanae",
 				"Location": "3-5 Pehi Kupa St, Waikanae",
@@ -205,7 +205,7 @@ window.onload = function() {
 					"Medium capacity (100-250)",
 					"Wheelchair access & disability toilet",
 					"For social function", 
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Waikanae",
 				"Location": "28-32 Utauta St, Waikanae",
@@ -219,7 +219,7 @@ window.onload = function() {
 					"Medium capacity (100-250)",
 					"Wheelchair access & disability toilet",
 					"For sport/recreation activity",
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Paraparaumu",
 				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
@@ -232,15 +232,183 @@ window.onload = function() {
 					"Medium capacity (100-250)",
 					"Wheelchair access & disability toilet",
 					"For social function",
-					"For meeting"
+					"For meeting",
 				],
 				"Suburb": "Waikanae Beach",
 				"Location": "22a Rauparaha St, Waikanae Beach",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-beach-community-hall/",
-				"Blurb": "Waikanae Beach Community Hall is medium-sized with a kitchen. It is suitable for functions (conditions apply) and meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week. ",
+				"Blurb": "Waikanae Beach Community Hall is medium-sized with a kitchen. It is suitable for functions (conditions apply) and meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-beach-community-hall/WaikBeachCommHallThumb.JPG"
-			}]
-		};
+			}],
+			"Ocean Road Community Centre": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function",
+					"For meeting",
+				],
+				"Suburb": "Paraparaumu Beach",
+				"Location": "45 Ocean Rd, Paraparaumu Beach",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/ocean-road-community-centre/",
+				"Blurb": "Ocean Road Community Centre has a medium-sized carpeted hall and a fully-equipped kitchen. When it's not being used by the Kapiti Senior Citizens' Association and other community groups it is available for hire.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/ocean-road-community-centre/OceanRdCCThumb.JPG"
+			}],
+			"Paraparaumu Memorial Hall": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+					"For sport/recreation activity",
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Corner of Aorangi and Tutanekai Sts, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paraparaumu-memorial-hall/",
+				"Blurb": "Paraparaumu Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller meeting room.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paraparaumu-memorial-hall/PumuMemHallThumb.JPG"
+			}],
+			"Paraparaumu Library Meeting Room": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"Wheelchair access & disability toilet",
+					"For meeting",
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Paraparaumu Library foyer, Iver Trask Place, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paraparaumu-library-meeting-room/",
+				"Blurb": "The Paraparaumu Library Meeting Room has a kitchenette and is available for hire for small meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paraparaumu-library-meeting-room/PumuLibThumb.jpg"
+			}],
+			"Paraparaumu College Sports Hall": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For sport/recreation activity",
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Paraparaumu College, 151 Mazengarb Rd, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paraparaumu-college-sports-hall/",
+				"Blurb": "The Paraparaumu College Sports Hall is available for hire for sport and recreation activities. Bookings are made through Kāpiti Coast District Council.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paraparaumu-college-sports-hall/PumuCollSportsHallThumb.jpg"
+			}],
+			"Te Newhanga Kapiti Community Centre": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function",
+					"For meeting",
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "15 Ngahina St, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/te-newhanga-kapiti-community-centre/",
+				"Blurb": "Te Newhanga Kapiti Community Centre has eight different sized rooms available for hire.  These are suitable for social functions, meetings, seminars, expos and events. Bookings are made through the Community Centre.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kapiti-community-centre/KapCommCentreThumb.jpg"
+			}],
+			"Paekākāriki Surf Club": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"For social function",
+					"For meeting",
+				],
+				"Suburb": "Paekākāriki",
+				"Location": "Northern end of Wellington Rd, Paekākāriki",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-surf-club/",
+				"Blurb": "The Paekākāriki Surf Club has a small space with a basic kitchen and bar available for hire. It is suitable for meetings and small social functions. Bookings are made through the Surf Club.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-surf-club/PaekakSCThumb.JPG"
+			}],
+			"Raumati South School Hall": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"For social function",
+					"For sport/recreation activity",
+				],
+				"Suburb": "Raumati South",
+				"Location": "54A Matai Rd, Raumati South",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/raumati-south-school/",
+				"Blurb": "The Raumati South School Hall is medium-sized and available for hire for functions and recreation activities. Bookings are made through the School.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/raumati-south-school/RauSthSchThumb.JPG"
+			}],
+			"Kāpiti Bowling Club Pavilion": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"For social function",
+				],
+				"Suburb": "Raumati",
+				"Location": "1 Matatua Rd, Raumati Beach",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-bowling-club-pavillion/",
+				"Blurb": "The Kāpiti Bowling Club Pavillion has a main hall area with a bar. It is suitable for small social functions and indoor bowls.  Bookings are made through the Bowling Club.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-bowling-club-pavillion/KapitiBowlingClubThumb.JPG"
+			}],
+			"Kāpiti Boating Club Clubrooms": [{
+				"Designation": [
+					"Fully-equipped kitchen",
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For social function", 
+					"For meeting",
+				],
+				"Suburb": "Paraparaumu Beach",
+				"Location": "Maclean Park Reserve, Marine Parade, Paraparaumu Beach",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-boating-club/",
+				"Blurb": "The Kāpiti Boating Club Clubrooms comprises a main hall and upstairs area along with a fully-equipped kitchen.  It is suitable for medium-sized functions and meetings. Bookings are made through the boating club.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-boating-club/KapitiBoatingClubThumb.jpg"
+			}],
+			"El Rancho Holiday Camp Meeting Spaces": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"Medium capacity (100-250)",
+					"Large capacity (250+)",
+					"Wheelchair access & disability toilet",
+					"For sport/recreation activity",
+					"For meeting",
+				],
+				"Suburb": "Waikanae Beach",
+				"Location": "58 Weggery Drive, Waikanae Beach",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/el-rancho-holiday-camp-meeting-spaces/",
+				"Blurb": "El Rancho Holiday Camp has a number of different size meeting spaces available for hire (along with accommodation and activity options).  It is suitable for meetings, conferences, indoor sporting events, and recreation activities.  Bookings are made through El Rancho.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/el-rancho-holiday-camp-meeting-spaces/ElRanchothumb.jpg"
+			}],
+			"Waikanae Bowling Club Clubrooms": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"Wheelchair access & disability toilet",
+					"For sport/recreation activity",
+					"For social function",
+					"For sport/recreation activity",					
+					"For meeting",
+				],
+				"Suburb": "Waikanae",
+				"Location": "354-356 Te Moana Rd, Waikanae",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/waikanae-bowling-club-clubrooms/",
+				"Blurb": "The Waikanae Bowling Club Clubrooms have a hall area with a carpeted lounge bar area as well as a meeting room. It is suitable for medium-size corporate and social functions including bowling occasions. Bookings are made through the Bowling Club.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-bowling-club-clubrooms/WaikBowlingClubThumb.jpg"
+			}],
+			"Coastlands Kāpiti Sports Turf Pavilion": [{
+				"Designation": [
+					"Medium capacity (100-250)",
+					"For sport/recreation activity",
+					"For meeting",
+				],
+				"Suburb": "Paraparaumu",
+				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/",
+				"Blurb": "The Waikanae Bowling Club Clubrooms have a hall area with a carpeted lounge bar area as well as a meeting room. It is suitable for medium-size corporate and social functions including bowling occasions. Bookings are made through the Bowling Club.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-bowling-club-clubrooms/WaikBowlingClubThumb.jpg"
+			}],
+			"Reikorangi Hall": [{
+				"Designation": [
+					"Small capacity (<100)",
+					"For social function",
+					"For meeting",
+				],
+				"Suburb": "Waikanae",
+				"Location": "The start of Akatarawa Rd, Reikorangi, Waikanae",
+				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/reikorangi-hall/",
+				"Blurb": "The Coastlands Kāpiti Sports Turf Pavilion has a large open space with bar as well as a meeting room. It is suitable for medium-sized sporting events, meetings and functions.",
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/KapitiTurfPavThumb.jpg"
+		}]
 		
 		/*var venues = {
 			"Aōtaki Street Skate Park": [{
