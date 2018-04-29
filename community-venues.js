@@ -102,7 +102,7 @@ window.onload = function() {
 				"Location": "98 The Parade, Paekākāriki",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-memorial-hall/",
 				"Blurb": "Paekākāriki Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-memorial-hall/PaekakHallThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekākāriki-memorial-hall/PaekakHallThumb.jpg"
 			}],
 			"Ōtaki Memorial Hall": [{
 				"Designation": [
@@ -117,7 +117,7 @@ window.onload = function() {
 				"Location": "69 Main Street, Ōtaki",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/otaki-memorial-hall/",
 				"Blurb": "Ōtaki Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller meeting room.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/otaki-memorial-hall/OtakiHallThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/ōtaki-memorial-hall/OtakiHallThumb.JPG"
 			}],
 			"Raumati South Memorial Hall": [{
 				"Designation": [
@@ -132,7 +132,7 @@ window.onload = function() {
 				"Location": "Tennis Court Road, Raumati South",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/raumati-south-memorial-hall/",
 				"Blurb": "Raumati South Memorial Hall is a large hall with a fully-equipped kitchen. It is suitable for large functions (conditions apply), meetings and recreation activities. It also has a smaller meeting room.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-horo-hall/te-horo-thumb.png"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/raumati-south-memorial-hall/RaumatiSouthHallThumb.jpg"
 			}],
 			"Coastlands Aquatic Centre Meeting Room": [{
 				"Designation": [
@@ -157,7 +157,7 @@ window.onload = function() {
 				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-gymsports-gymnasium/",
 				"Blurb": "The Kāpiti Gymsports Gymnasium has a large gymnasium where managed gym activities can take place. It is suitable for a kid's birthday party, as well as a small meeting room. The meeting room has a small kitchen. Bookings must be made through Kāpiti Gymsports and it is available for hire at certain times when normal gym activities aren't running, including weekends.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-gymsports-gymnasium/KapitiGymspThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kāpiti-gymsports-gymnasium/KapitiGymspThumb.JPG"
 			}],
 			"Te Horo Community Hall": [{
 				"Designation": [
@@ -182,7 +182,7 @@ window.onload = function() {
 				"Location": "14 Wellington Rd, Paekākāriki",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-tennis-club-clubroomslibrary/",
 				"Blurb": "The Paekākāriki Tennis Club Clubrooms/Library has limited availability but when not in use can be hired as a small meeting room. Bookings are made through Kāpiti Coast District Council.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-tennis-club-clubroomslibrary/PaekakLibThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekākāriki-tennis-club-clubroomslibrary/PaekakLibThumb.jpg"
 			}],
 			"Waikanae War Memorial Hall": [{
 				"Designation": [
@@ -292,7 +292,7 @@ window.onload = function() {
 				"Blurb": "The Paraparaumu College Sports Hall is available for hire for sport and recreation activities. Bookings are made through Kāpiti Coast District Council.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paraparaumu-college-sports-hall/PumuCollSportsHallThumb.jpg"
 			}],
-			"Te Newhanga Kapiti Community Centre": [{
+			"Te Newhanga Kāpiti Community Centre": [{
 				"Designation": [
 					"Small capacity (<100)",
 					"Medium capacity (100-250)",
@@ -304,7 +304,7 @@ window.onload = function() {
 				"Location": "15 Ngahina St, Paraparaumu",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/te-newhanga-kapiti-community-centre/",
 				"Blurb": "Te Newhanga Kapiti Community Centre has eight different sized rooms available for hire.  These are suitable for social functions, meetings, seminars, expos and events. Bookings are made through the Community Centre.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kapiti-community-centre/KapCommCentreThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kāpiti-community-centre/KapCommCentreThumb.jpg"
 			}],
 			"Paekākāriki Surf Club": [{
 				"Designation": [
@@ -316,7 +316,7 @@ window.onload = function() {
 				"Location": "Northern end of Wellington Rd, Paekākāriki",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/paekakariki-surf-club/",
 				"Blurb": "The Paekākāriki Surf Club has a small space with a basic kitchen and bar available for hire. It is suitable for meetings and small social functions. Bookings are made through the Surf Club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekakariki-surf-club/PaekakSCThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paekākāriki-surf-club/PaekakSCThumb.JPG"
 			}],
 			"Raumati South School Hall": [{
 				"Designation": [
@@ -328,7 +328,7 @@ window.onload = function() {
 				"Location": "54A Matai Rd, Raumati South",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/raumati-south-school/",
 				"Blurb": "The Raumati South School Hall is medium-sized and available for hire for functions and recreation activities. Bookings are made through the School.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/raumati-south-school/RauSthSchThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/raumati-south-school-hall/RauSthSchThumb.JPG"
 			}],
 			"Kāpiti Bowling Club Pavilion": [{
 				"Designation": [
@@ -339,7 +339,7 @@ window.onload = function() {
 				"Location": "1 Matatua Rd, Raumati Beach",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-bowling-club-pavillion/",
 				"Blurb": "The Kāpiti Bowling Club Pavillion has a main hall area with a bar. It is suitable for small social functions and indoor bowls.  Bookings are made through the Bowling Club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-bowling-club-pavillion/KapitiBowlingClubThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kāpiti-bowling-club-pavillion/KapitiBowlingClubThumb.JPG"
 			}],
 			"Kāpiti Boating Club Clubrooms": [{
 				"Designation": [
@@ -353,7 +353,7 @@ window.onload = function() {
 				"Location": "Maclean Park Reserve, Marine Parade, Paraparaumu Beach",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-boating-club/",
 				"Blurb": "The Kāpiti Boating Club Clubrooms comprises a main hall and upstairs area along with a fully-equipped kitchen.  It is suitable for medium-sized functions and meetings. Bookings are made through the boating club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-boating-club/KapitiBoatingClubThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kāpiti-boating-club/KapitiBoatingClubThumb.jpg"
 			}],
 			"El Rancho Holiday Camp Meeting Spaces": [{
 				"Designation": [
@@ -407,7 +407,7 @@ window.onload = function() {
 				"Location": "The start of Akatarawa Rd, Reikorangi, Waikanae",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/reikorangi-hall/",
 				"Blurb": "The Coastlands Kāpiti Sports Turf Pavilion has a large open space with bar as well as a meeting room. It is suitable for medium-sized sporting events, meetings and functions.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/KapitiTurfPavThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/reikorangi-hall/reikorangihallthumb.jpg"
 		}]
 		
 		/*var venues = {
