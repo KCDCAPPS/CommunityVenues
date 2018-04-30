@@ -300,7 +300,7 @@ window.onload = function() {
 				"Location": "15 Ngahina St, Paraparaumu",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/te-newhanga-kapiti-community-centre/",
 				"Blurb": "Te Newhanga Kapiti Community Centre has eight different sized rooms available for hire.  These are suitable for social functions, meetings, seminars, expos and events. Bookings are made through the Community Centre.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kapiti-community-centre/KapCommCentreThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kapiti-cc/KapCommCentreThumb.jpg"
 			}],
 			"Paekākāriki Surf Club": [{
 				"Designation": [
@@ -335,7 +335,7 @@ window.onload = function() {
 				"Location": "1 Matatua Rd, Raumati Beach",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-bowling-club-pavillion/",
 				"Blurb": "The Kāpiti Bowling Club Pavillion has a main hall area with a bar. It is suitable for small social functions and indoor bowls.  Bookings are made through the Bowling Club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-bowling-club-pavillion/KapitiBowlingClubThumb.JPG"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-bowling-club-pavilion/KapitiBowlingClubThumb.JPG"
 			}],
 			"Kāpiti Boating Club Clubrooms": [{
 				"Designation": [
@@ -349,7 +349,7 @@ window.onload = function() {
 				"Location": "Maclean Park Reserve, Marine Parade, Paraparaumu Beach",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/kapiti-boating-club/",
 				"Blurb": "The Kāpiti Boating Club Clubrooms comprises a main hall and upstairs area along with a fully-equipped kitchen.  It is suitable for medium-sized functions and meetings. Bookings are made through the boating club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-boating-club/KapitiBoatingClubThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/kapiti-boating-club-clubrooms/KapitiBoatingClubThumb.jpg"
 			}],
 			"El Rancho Holiday Camp Meeting Spaces": [{
 				"Designation": [
@@ -391,7 +391,7 @@ window.onload = function() {
 				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/",
 				"Blurb": "The Waikanae Bowling Club Clubrooms have a hall area with a carpeted lounge bar area as well as a meeting room. It is suitable for medium-size corporate and social functions including bowling occasions. Bookings are made through the Bowling Club.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/waikanae-bowling-club-clubrooms/WaikBowlingClubThumb.jpg"
+				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/KapitiTurfPavThumb.jpg"
 			}],
 			"Reikorangi Hall": [{
 				"Designation": [
