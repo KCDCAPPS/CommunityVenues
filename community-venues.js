@@ -288,20 +288,6 @@ window.onload = function() {
 				"Blurb": "The Paraparaumu College Sports Hall is available for hire for sport and recreation activities. Bookings are made through Kāpiti Coast District Council.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/paraparaumu-college-sports-hall/PumuCollSportsHallThumb.jpg"
 			}],
-			"Te Newhanga Kāpiti Community Centre": [{
-				"Designation": [
-					"Small capacity (<100)",
-					"Medium capacity (100-250)",
-					"Wheelchair access & disability toilet",
-					"For social function",
-					"For meeting",
-				],
-				"Suburb": "Paraparaumu",
-				"Location": "15 Ngahina St, Paraparaumu",
-				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/te-newhanga-kapiti-community-centre/",
-				"Blurb": "Te Newhanga Kapiti Community Centre has eight different sized rooms available for hire.  These are suitable for social functions, meetings, seminars, expos and events. Bookings are made through the Community Centre.",
-				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/te-newhanga-kapiti-cc/KapCommCentreThumb.jpg"
-			}],
 			"Paekākāriki Surf Club": [{
 				"Designation": [
 					"Small capacity (<100)",
