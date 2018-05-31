@@ -376,7 +376,7 @@ window.onload = function() {
 				"Suburb": "Paraparaumu",
 				"Location": "Mazengarb Reserve, Scaife Drive, Paraparaumu",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/",
-				"Blurb": "The Waikanae Bowling Club Clubrooms have a hall area with a carpeted lounge bar area as well as a meeting room. It is suitable for medium-size corporate and social functions including bowling occasions. Bookings are made through the Bowling Club.",
+				"Blurb": "The Coastlands Kāpiti Sports Turf Pavilion has a large open space with bar as well as a meeting room. It is suitable for medium-sized sporting events, meetings and functions.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/coastlands-kapiti-sports-turf-pavilion/KapitiTurfPavThumb.jpg"
 			}],
 			"Reikorangi Hall": [{
@@ -388,7 +388,7 @@ window.onload = function() {
 				"Suburb": "Waikanae",
 				"Location": "The start of Akatarawa Rd, Reikorangi, Waikanae",
 				"Webpage": "/Our-District/Our-Community/community-venues-for-hire/reikorangi-hall/",
-				"Blurb": "The Coastlands Kāpiti Sports Turf Pavilion has a large open space with bar as well as a meeting room. It is suitable for medium-sized sporting events, meetings and functions.",
+				"Blurb": "The Reikorangi Hall is a small hall with a kitchen. It is suitable for small functions or meetings.  Bookings are made through Kāpiti Coast District Council and it is available for hire seven days a week.",
 				"Image": "/globalassets/our-district/our-community/community-venues-for-hire/reikorangi-hall/reikorangihallthumb.jpg"
 			}]
 		};
